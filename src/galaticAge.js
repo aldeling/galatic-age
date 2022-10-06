@@ -19,6 +19,7 @@ export default class GalaticAge{
   }
 
   jupiterCalculation() {
-    
+    let jupiterAge = (this.age / 11.86);
+    return Math.round(jupiterAge*100)/100;
   }
 }
