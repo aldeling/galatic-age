@@ -11,7 +11,7 @@ This web application allows the user to input their earth age. Once that age is 
   * eslint
   * Jest
 ### Setup Instructions
-There are two ways you can chose to set up this application. First you can use the created [GitHub] pages link which will take you to a running page. The second option is to open the created repository and clone it down to a personal computer. Once downloaded on a personal computer you can open the file, when opened use the terminal with in the file. There you can do npm start and that will open a local host of the application that can be used.
+There are two ways you can chose to set up this application. First you can use the created [GitHub]() pages link which will take you to a running page. The second option is to open the created repository and clone it down to a personal computer. Once downloaded on a personal computer you can open the file, when opened use the terminal with in the file. There you can do npm start and that will open a local host of the application that can be used.
 ### Known Bugs
 No known bugs currently
 ### License
