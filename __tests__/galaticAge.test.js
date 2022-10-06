@@ -6,4 +6,9 @@ describe('GalaticAge', () => {
   const galaticAge = new GalaticAge(21);
   expect(galaticAge.age).toEqual(21);
   })
+
+  test('should correctly calculate age on mercury using age', () => {
+    const mercuryAge = new GalaticAge(21);
+    expect(mercuryAge.mercuryCalculation()).toEqual(87.5)
+  })
 });
