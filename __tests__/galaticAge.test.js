@@ -26,4 +26,9 @@ describe('GalaticAge', () => {
     const marsAge = new GalaticAge(21);
     expect(marsAge.marsCalculation()).toEqual(11.17);
   })
+
+  test('should correctly calculate jupiterAge with two decimals', () => {
+    const jupiterAge = new GalaticAge(21);
+    expect(jupiterAge.jupiterCalculation()).toEqual(1.77);
+  })
 });
