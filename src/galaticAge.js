@@ -10,6 +10,6 @@ export default class GalaticAge{
 
   venusCalculation() {
     let venusAge = (this.age / .62);
-    return venusAge;
+    return Math.round(venusAge*100)/100;
   }
 }
