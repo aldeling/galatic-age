@@ -9,6 +9,11 @@ describe('GalaticAge', () => {
 
   test('should correctly calculate age on mercury using age', () => {
     const mercuryAge = new GalaticAge(21);
-    expect(mercuryAge.mercuryCalculation()).toEqual(87.5)
+    expect(mercuryAge.mercuryCalculation()).toEqual(87.5);
+  })
+
+  test('should correctly calculate age on mercury using age', () => {
+    const venusAge = new GalaticAge(21);
+    expect(venusAge.venusCalculation()).toEqual(33.87);
   })
 });

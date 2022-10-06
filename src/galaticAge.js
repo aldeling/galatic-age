@@ -7,4 +7,8 @@ export default class GalaticAge{
     let mercuryAge = (this.age / .24)
     return mercuryAge;
   }
+
+  venusCalculation() {
+    
+  }
 }
