@@ -17,5 +17,8 @@ describe('GalaticAge', () => {
     expect(venusAge.venusCalculation()).toEqual(33.87);
   })
 
-
+  test('should return mercuryAge with two decimal', () => {
+    const mercuryAge = new GalaticAge(2);
+    expect(mercuryAge.mercuryCalculation()).toEqual(83.33);
+  })
 });
