@@ -18,7 +18,7 @@ describe('GalaticAge', () => {
   })
 
   test('should return mercuryAge with two decimal', () => {
-    const mercuryAge = new GalaticAge(2);
+    const mercuryAge = new GalaticAge(20);
     expect(mercuryAge.mercuryCalculation()).toEqual(83.33);
   })
 });
