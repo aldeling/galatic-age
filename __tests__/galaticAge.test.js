@@ -34,6 +34,6 @@ describe('GalaticAge', () => {
 
   test('should correctly determine how many years are left on mercury with two decimals', () => {
     const mercuryLeft = new GalaticAge(21);
-    expect(mercuryLeft.mercuryRemaining()).toEqual(241.66);
+    expect(mercuryLeft.mercuryRemaining()).toEqual(241.67);
   })
 });
