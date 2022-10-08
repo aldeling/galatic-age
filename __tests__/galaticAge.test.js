@@ -56,4 +56,9 @@ describe('GalaticAge', () => {
     const marsLeft = new GalaticAge(21);
     expect(marsLeft.marsRemaining()).toEqual(30.85);
   })
+
+  test('should return a positive number if lived passed mars left expectance', () => {
+    const marsLeft = new GalaticAge(80);
+    expect(marsLeft.marsRemaining()).toEqual(0.53);
+  })
 });
