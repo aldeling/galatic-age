@@ -61,4 +61,9 @@ describe('GalaticAge', () => {
     const marsLeft = new GalaticAge(80);
     expect(marsLeft.marsRemaining()).toEqual(0.53);
   })
+
+  test("should correctly determine how many years are left on jupiter with two decimals", () => {
+    const jupiterLeft = new GalaticAge(21);
+    expect(jupiterLeft.jupiterRemaining()).toEqual(4.89);
+  })
 });

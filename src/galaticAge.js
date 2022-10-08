@@ -46,4 +46,8 @@ export default class GalaticAge{
     }
     return Math.round(marsLeft*100)/100;
   }
+
+  jupiterRemaining() {
+    
+  }
 }
