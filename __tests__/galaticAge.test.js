@@ -46,4 +46,9 @@ describe('GalaticAge', () => {
     const venusLeft = new GalaticAge(21);
     expect(venusLeft.venusRemaining()).toEqual(93.55);
   })
+
+  test('should return a positive number if lived passed venus life expectance', () => {
+    const venusLeft =new GalaticAge(80);
+    expect(venusLeft.venusRemaining()).toEqual(1.61);
+  })
 });
