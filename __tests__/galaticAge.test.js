@@ -39,6 +39,6 @@ describe('GalaticAge', () => {
 
   test('should return a positive number if lived past life expectance', () => {
     const mercuryLeft = new GalaticAge(80);
-    expect(mercuryLeft.mercuryRemaining()).toEqual(4.17)
+    expect(mercuryLeft.mercuryRemaining()).toEqual(4.17);
   })
 });

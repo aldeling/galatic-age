@@ -25,6 +25,9 @@ export default class GalaticAge{
 
   mercuryRemaining() {
     let mercuryLeft = ((79 - this.age)/ .24);
+    if (mercuryLeft < 0) {
+      return Math.round(mercuryLeft*(-1)*100)/100;
+    }
     return Math.round(mercuryLeft*100)/100;
   }
 }
