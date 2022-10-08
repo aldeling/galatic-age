@@ -66,4 +66,9 @@ describe('GalaticAge', () => {
     const jupiterLeft = new GalaticAge(21);
     expect(jupiterLeft.jupiterRemaining()).toEqual(4.89);
   })
+
+  test('should return a positive number if lived pass jupiter life expectance', () => {
+    const jupiterLeft = new GalaticAge(80);
+    expect(jupiterLeft.jupiterRemaining()).toEqual(0.08);
+  })
 });
