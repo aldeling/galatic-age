@@ -41,6 +41,9 @@ export default class GalaticAge{
 
   marsRemaining() {
     let marsLeft = ((79 - this.age)/ 1.88);
+    if (marsLeft < 0) {
+      return Math.round(marsLeft*(-1)*100)/100;
+    }
     return Math.round(marsLeft*100)/100;
   }
 }
