@@ -30,4 +30,7 @@ export default class GalaticAge{
     }
     return Math.round(mercuryLeft*100)/100;
   }
+
+  venusRemaining() {
+  }
 }
