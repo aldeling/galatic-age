@@ -49,6 +49,9 @@ export default class GalaticAge{
 
   jupiterRemaining() {
     let jupiterLeft = ((79 - this.age)/ 11.86);
+    if (jupiterLeft < 0) {
+      return Math.round(jupiterLeft*(-1)*100)/100;
+    }
     return Math.round(jupiterLeft*100)/100;
   }
 }
