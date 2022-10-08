@@ -32,7 +32,10 @@ export default class GalaticAge{
   }
 
   venusRemaining() {
-    let venusLeft = ((79 - this.age)/ .62);
+    let venusLeft = ((79 - this.age)/ .62); 
+    if (venusLeft < 0) {
+      return Math.round(venusLeft*(-1)*100)/100;
+    }
     return Math.round(venusLeft*100)/100;
   }
 }
