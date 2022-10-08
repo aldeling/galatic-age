@@ -38,4 +38,8 @@ export default class GalaticAge{
     }
     return Math.round(venusLeft*100)/100;
   }
+
+  marsRemaining() {
+    
+  }
 }
